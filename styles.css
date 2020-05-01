@@ -75,6 +75,7 @@ button {
     font-weight: 200;
     padding-bottom: 1px;
     margin-right: 25px;
+
     background-color: #f9f9f9;
     border-radius: 5px;
 }
@@ -106,6 +107,11 @@ button: last-child {
     width: 90%;
     margin-right: auto;
     margin-left: auto;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
 }
 
 .wrapper{
@@ -165,9 +171,4 @@ button: last-child {
     float: right;
     width: 30%;
     text-align: left;
-}
-
-textarea:focus,
-input:focus {
-  outline: none;
 }
