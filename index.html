@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+  <title>Since</title>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.1.0/mustache.min.js"></script>
+  <script src="timer3.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Neuton:wght@200;300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <section class="header"><h1>Since</h1></section>
+    <section class="timers">
+    </section>
+     
+    <section class = "add-timer">
+        <div class="footer-div">
+        <div class="wrapper">
+            <div>
+            <label for="fname">Since:</label>
+            <input type="text" id="user-input"></input>
+        </div>
+        <div class="custom-time-input">
+            <input type="text" value = "0" class="custom-time" id="custom-days"></input>
+            <span class="custom-time">Days</span>
+            <input type="text" value = "0" class="custom-time" id="custom-hours"></input>
+            <span class="custom-time">Hours</span>
+            <input type="text" value = "0" class="custom-time" id="custom-minutes"></input>
+            <span class="custom-time">Minutes</span>
+            <input type="text" value = "0" class="custom-time" id="custom-seconds"></input>
+            <span class="custom-time">Seconds</span>
+            
+        </div>
+    </div>
+        <div class="add-button">
+            <!-- <button id="new-timer">New Timer</button> -->
+            <input type="image" id="new-timer" src="add.svg"/>
+        </div>
+    </div>
+    </section> 
+</body>
+
+</html>

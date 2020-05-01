@@ -1,0 +1,166 @@
+body {
+    font-family: 'Neuton', serif;
+}
+
+.header {
+    position: fixed;
+    background-image: linear-gradient( rgba(255, 255, 255, 1) 45%, rgba(255,255,255,0) 80%);
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    top: 0;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 160px;
+    font-weight: 200;
+    margin-top: -30px;
+}
+
+.timers {
+    padding-top: 170px;
+}
+
+.timer {
+    margin-bottom: 25px;
+    box-shadow: 8px 8px 8px rgb(172, 172, 172);
+    text-align: center;
+    border: solid 1px #000;
+    padding-bottom:25px;
+    padding-top: 15px;
+    border-radius: 500px;
+    max-width: 1150px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timer .timeel {
+  display: inline-block;
+  color: black;
+  font-size: 64px;
+  font-weight: 200;
+  margin-top: -10px; 
+}
+
+.timer .text {
+    padding-right: 35px;
+}
+
+.timer .text:last-child {
+    padding-right: 10px;
+}
+
+.timer .number {
+    padding-right: 20px;
+}   
+
+.timer span[class*="timeRef"] {
+  color: black;
+}
+
+.timer p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 200;
+    padding-bottom: 1px;
+    margin-right: 25px;
+}
+
+button: last-child {
+    margin-right: 0px;
+}
+
+
+.add-timer {
+    /* margin-top: 120px; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align:center;
+    background-color: #fff;
+    
+
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.footer-div {
+    border-top: solid 1px #000;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.wrapper{
+    float: left;
+    width: 65%;
+    text-align: right;
+    
+}
+
+.add-timer label {
+    margin-right: 5px;
+}
+
+.add-timer span {
+    margin-left: 5px;
+    padding-right: 20px;
+}
+
+.add-timer input {
+    padding: 5px 5px 0px 5px;
+    width: 500px;
+    border: none;
+    border-bottom: solid 1px #000;
+
+    font-size: 24px;
+    font-family: 'Neuton', serif;
+    font-weight: 200;
+}
+
+.add-timer div {
+    margin-bottom:25px;
+}
+
+.custom-time-input input {
+    width: 5%;
+    text-align: right;
+    
+}
+
+.custom-time-input span {
+    margin-right: 15px;
+}
+
+.custom-time-input span:last-child {
+    margin-right: -15px;
+}
+
+.add-button input {
+    width: 90px;
+    border: none;
+    filter: drop-shadow(2px 4px 3px rgb(172, 172, 172));
+    
+
+}
+
+.add-button {
+    float: right;
+    width: 30%;
+    text-align: left;
+}
